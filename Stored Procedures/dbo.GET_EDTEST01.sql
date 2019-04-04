@@ -12,5 +12,7 @@ CREATE PROCEDURE [dbo].[GET_EDTEST01]
 AS
 BEGIN
 SELECT * FROM testeED
+select count(*) from testeED
+
 END
 GO
